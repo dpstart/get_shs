@@ -12,7 +12,7 @@ try:
 except ImportError:
     from urllib import urlencode, urlopen
 
-YOUTUBE_API_KEY = "AIzaSyDc3qwXIs-vVo9LF3fsAmEcDw98Y-UU-X8" 
+YOUTUBE_API_KEY = "" 
 pafy.set_api_key(YOUTUBE_API_KEY) 
 
 
